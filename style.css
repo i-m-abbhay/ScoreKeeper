@@ -1,0 +1,42 @@
+.winner {
+     color: green;
+  }
+  .loser {
+     color: red;
+  }
+  #reset{
+     background-color: red;
+  }
+  select, button{
+       padding: 1rem;
+       padding-top: 0.5rem;
+       padding-bottom: 0.5rem;
+       border: none;
+       border-radius: 0.3rem;
+
+  }
+  #game-img{
+       height: 15rem;
+       width: auto;
+       border-radius: 2rem;
+  }
+  body{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: #1d3557;
+  }
+  .container{
+       background-color: aliceblue;
+       padding: 3rem;
+     margin: 10rem;
+       border-radius: 2rem;
+  }
+  h1{
+       text-align: center;
+       font-size: 3rem;
+  }
+  h2{
+       text-align: center;
+       font-size: 2rem;
+  }

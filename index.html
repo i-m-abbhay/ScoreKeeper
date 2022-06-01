@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta
+         name="description"
+         content="ScoreKeeper is a web application that allows you to keep track of your scores and achievements."
+      />
+      <link rel="stylesheet" href="style.css" />
+      <title>Document</title>
+   </head>
+   <body>
+      <div class="container">
+         <div class="header">
+            <h1>ScoreKeeper</h1>
+            <img
+               src="https://www.techniajz.com/uploads/blog_images/c2f1e9b9855459f4195b97227fc818ca-0x0.jpg"
+               alt="Image of Table Tennis"
+               id="game-img"
+            />
+         </div>
+         <h2><span id="p1Display">1</span> to <span id="p2Display">4</span></h2>
+         <select name="playto" id="playto">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+         </select>
+         <button id="p1btn">+1 Player 1</button>
+         <button id="p2btn">+1 Player 2</button>
+         <button id="reset">Reset</button>
+      </div>
+      <script src="app.js"></script>
+   </body>
+</html>
