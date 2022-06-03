@@ -18,6 +18,7 @@ function reset() {
    p2Display.textContent = p2Score;
    p2Display.classList.remove("winner", "loser");
    p1Display.classList.remove("loser", "winner");
+   gameOver = false;
 }
 selectingWinningScore.addEventListener("change", function () {
    winningScore = parseInt(this.value);
